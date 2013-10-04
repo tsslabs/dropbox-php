@@ -73,7 +73,7 @@ class Dropbox_OAuth_Curl extends Dropbox_OAuth {
 			curl_setopt($ch, CURLOPT_URL, $uri);
 			curl_setopt($ch, CURLOPT_POST, true);
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $arguments);
-			$httpHeaders['Content-Length']=strlen($arguments);
+			//$httpHeaders['Content-Length']=strlen($arguments);
 		} else {
 			curl_setopt($ch, CURLOPT_URL, $uri.'?'.http_build_query($arguments));
 			curl_setopt($ch, CURLOPT_POST, false);
