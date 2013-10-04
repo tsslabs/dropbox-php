@@ -1,7 +1,7 @@
 {
-    "name": "dropbox-php/dropbox-php",
+    "name": "tsslabs/dropbox-php",
     "type": "library",
-    "description": "Dropbox PHP library",
+    "description": "Dropbox PHP library with updates",
     "keywords": ["dropbox"],
     "homepage": "http://dropbox-php.com/",
     "license": "MIT",
@@ -24,6 +24,11 @@
         {
             "name": "Naoki Sawada",
 	    "role": "Developer"
+        },
+        {
+            "name": "Radu Topala",
+            "homepage": "http://www.trisoft.ro/",
+            "role": "Developer"
         }
     ],
     "support": {
